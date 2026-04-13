@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/NewsRovalt-App/static/css/main.31d6cfe0.css",
-    "main.js": "/NewsRovalt-App/static/js/main.b22cc913.js",
+    "main.js": "/NewsRovalt-App/static/js/main.3af0d020.js",
     "static/js/453.f59e58e5.chunk.js": "/NewsRovalt-App/static/js/453.f59e58e5.chunk.js",
     "index.html": "/NewsRovalt-App/index.html",
-    "main.b22cc913.js.map": "/NewsRovalt-App/static/js/main.b22cc913.js.map",
+    "main.3af0d020.js.map": "/NewsRovalt-App/static/js/main.3af0d020.js.map",
     "453.f59e58e5.chunk.js.map": "/NewsRovalt-App/static/js/453.f59e58e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.b22cc913.js"
+    "static/js/main.3af0d020.js"
   ]
 }
