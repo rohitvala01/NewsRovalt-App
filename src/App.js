@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import NavBar from './components/NavBar';
 import News from './components/News';
 
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
+
+
 
 
 import {
@@ -30,10 +32,10 @@ export default class App extends Component {
             <Route path="/technology" element={<News pageSize={this.pageSize} country="us" category="technology" />} />
           </Routes>
 
-          
-          <BrowserRouter basename="/NewsRovalt-App">
+
+          <HashRouter>
   {/* your routes */}
-</BrowserRouter>
+</HashRouter>
 
         </Router>
       </div>
