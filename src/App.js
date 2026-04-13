@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import NavBar from './components/NavBar';
 import News from './components/News';
 
+import { BrowserRouter } from "react-router-dom";
+
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -26,6 +29,12 @@ export default class App extends Component {
             <Route path="/sports" element={<News pageSize={this.pageSize} country="us" category="sports" />} />
             <Route path="/technology" element={<News pageSize={this.pageSize} country="us" category="technology" />} />
           </Routes>
+
+          
+          <BrowserRouter basename="/NewsRovalt-App">
+  {/* your routes */}
+</BrowserRouter>
+
         </Router>
       </div>
     );
