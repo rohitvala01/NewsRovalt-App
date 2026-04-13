@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 import NavBar from './components/NavBar';
 import News from './components/News';
 
-import { HashRouter } from "react-router-dom";
-
-
-
 
 import {
   BrowserRouter as Router,
@@ -33,9 +29,7 @@ export default class App extends Component {
           </Routes>
 
 
-          <HashRouter>
-  {/* your routes */}
-</HashRouter>
+        
 
         </Router>
       </div>
